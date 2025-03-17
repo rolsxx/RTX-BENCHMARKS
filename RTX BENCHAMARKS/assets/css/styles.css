@@ -1,0 +1,51 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000; /* Fundo preto */
+  color: #fff; /* Cor do texto */
+  font-family: Arial, sans-serif;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo {
+  font-size: 4rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.letter {
+  opacity: 0;
+  display: inline-block;
+  transform: translateY(20px);
+  animation: appear 1.5s forwards;
+}
+
+.space {
+  margin-right: 10px; /* Espaço entre "RTX" e "Benchmarks" */
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes separate {
+  to {
+    transform: translateX(calc(var(--distance) * 20px))
+      translateY(calc(var(--distance) * 10px));
+    opacity: 0;
+  }
+}
+
+.separate {
+  animation: separate 1.5s forwards;
+}
