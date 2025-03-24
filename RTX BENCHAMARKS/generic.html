@@ -5,6 +5,7 @@
 		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/styleCharts.css">
 	</head>
 	<body class="subpage">
 
@@ -17,6 +18,18 @@
 				<li><a href="generic3.html">RTX 4090 </a></li>
 				<li><a href="generic4.html">RTX 5090 </a></li>
 				<li><a href="generic5.html">BENCHMARKS </a></li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" aria-expanded="false">BENCHMARKS </a>
+					<ul class="dropdown-menu">
+						<li><a href="CyberPunk2077.html">Cyberpunk 2077</a></li>
+						<li><a href="Indiana Jones.html">Indiana Jones</a></li>
+						<li><a href="AlanAwake2.html">Alan Awake 2</a></li>
+					</ul>
+				</li>
+
+				<!--Dropdown-->
+				
 				</ul></nav><!-- One --><section id="One" class="wrapper style3"><div class="inner">
 					<header class="align-center"><p>Nvidea GeForce RTX </p>
 						<h2>Série 20</h2>
@@ -86,4 +99,24 @@
 		</div>
 
 		<!-- Scripts -->
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+				const dropdownToggle = document.querySelector('.dropdown-toggle');
+				const dropdownMenu = document.querySelector('.dropdown-menu');
+		
+				dropdownToggle.addEventListener('click', function (event) {
+					event.preventDefault(); // Prevent the default link behavior
+					const isExpanded = dropdownMenu.classList.toggle('show'); // Toggle the show class
+					dropdownToggle.setAttribute('aria-expanded', isExpanded); // Update ARIA attribute
+				});
+		
+				// Optional: Close the dropdown when clicking outside
+				document.addEventListener('click', function (event) {
+					if (!dropdownToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
+						dropdownMenu.classList.remove('show');
+						dropdownToggle.setAttribute('aria-expanded', 'false');
+					}
+				});
+			});
+		</script>
 			<script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrollex.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><script src="assets/js/main.js"></script></body></html>

@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/styleCharts.css">
+   
 </head>
 <body class="subpage">
     <!-- Header -->
@@ -28,7 +29,14 @@
             <li><a href="generic2.html">RTX 3090 TI</a></li>
             <li><a href="generic3.html">RTX 4090 </a></li>
             <li><a href="generic4.html">RTX 5090 </a></li>
-            <li><a href="generic5.html">BENCHMARKS </a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" aria-expanded="false">BENCHMARKS </a>
+                <ul class="dropdown-menu">
+                    <li><a href="CyberPunk2077.html">Cyberpunk 2077</a></li>
+                    <li><a href="Indiana Jones.html">Indiana Jones</a></li>
+                    <li><a href="AlanAwake2.html">Alan Awake 2</a></li>
+                </ul>
+            </li>
         </ul>
     </nav>
 
@@ -83,7 +91,7 @@
 
                     <!-- Alan Wake 2 Charts -->
                     <div class="game-name">
-                        <h4>Alan Wake 2</h4>
+                        <h4>Alan Awake 2</h4>
                     </div>
                     <h3>1080p (Full HD) - High Settings</h3>
                     <div class="chart-container">
@@ -126,5 +134,25 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/scriptGraph.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdownToggle = document.querySelector('.dropdown-toggle');
+            const dropdownMenu = document.querySelector('.dropdown-menu');
+
+            dropdownToggle.addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default link behavior
+                const isExpanded = dropdownMenu.classList.toggle('show'); // Toggle the show class
+                dropdownToggle.setAttribute('aria-expanded', isExpanded); // Update ARIA attribute
+            });
+
+            // Optional: Close the dropdown when clicking outside
+            document.addEventListener('click', function (event) {
+                if (!dropdownToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                    dropdownMenu.classList.remove('show');
+                    dropdownToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

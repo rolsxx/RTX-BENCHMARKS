@@ -3302,6 +3302,36 @@ table.alt tbody tr td {
   position: relative;
 }
 
+.wrapper.styleCB2077 {
+  background-color: #000;
+  color: #bfbfbf;
+  background-image: url(../../images/cyberpunk2077.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.wrapper.styleINDJNS {
+  background-color: #000;
+  color: #bfbfbf;
+  background-image: url(../../images/Indianajones.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.wrapper.styleALNWK2 {
+  background-color: #000;
+  color: #bfbfbf;
+  background-image: url(../../images/alanawake2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
 .wrapper.style3 input,
 .wrapper.style3 select,
 .wrapper.style3 textarea {
