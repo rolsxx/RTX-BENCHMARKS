@@ -5354,16 +5354,3 @@ body.is-mobile .banner > article {
     padding: 3rem 0 1rem 0;
   }
 }
-
-.wrapper.style6::after {
-  content: "";
-  display: block;
-  width: 100px; /* Ancho de la imagen */
-  height: 100px; /* Alto de la imagen */
-  background-image: url('../../images/OIP.jpg'); /* Ruta de la imagen */
-  background-size: cover;
-  position: absolute;
-  bottom: 20px; /* Ajusta la posición */
-  right: 20px; /* Ajusta la posición */
-  z-index: 1000; /* Asegúrate de que esté encima */
-}
