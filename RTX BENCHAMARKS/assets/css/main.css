@@ -3292,6 +3292,660 @@ table.alt tbody tr td {
   border-color: rgba(0, 0, 0, 0.15);
 }
 
+.wrapper.styleCB2077 {
+  background-color: #f2f2f2;
+  background: rgba(0, 0, 0, 0.418);
+  background-image: url(../../images/cyberpunk2077.jpg);
+  color: #a6a6a6;
+}
+
+.wrapper.styleCB2077 input,
+.wrapper.styleCB2077 select,
+.wrapper.styleCB2077 textarea {
+  color: #000;
+}
+
+.wrapper.styleCB2077 a {
+  color: #8a4680;
+}
+
+.wrapper.styleCB2077 strong,
+.wrapper.styleCB2077 b {
+  color: #000;
+}
+
+.wrapper.styleCB2077 h1,
+.wrapper.styleCB2077 h2,
+.wrapper.styleCB2077 h3,
+.wrapper.styleCB2077 h4,
+.wrapper.styleCB2077 h5,
+.wrapper.styleCB2077 h6 {
+  color: #000;
+}
+
+.wrapper.styleCB2077 blockquote {
+  border-left-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleCB2077 code {
+  background: rgba(0, 0, 0, 0.075);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleCB2077 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleCB2077 .box {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleCB2077 input[type="submit"],
+.wrapper.styleCB2077 input[type="reset"],
+.wrapper.styleCB2077 input[type="button"],
+.wrapper.styleCB2077 button,
+.wrapper.styleCB2077 .button {
+  background-color: #000;
+  color: #f2f2f2 !important;
+}
+
+.wrapper.styleCB2077 input[type="submit"].alt,
+.wrapper.styleCB2077 input[type="reset"].alt,
+.wrapper.styleCB2077 input[type="button"].alt,
+.wrapper.styleCB2077 button.alt,
+.wrapper.styleCB2077 .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);
+  color: #000 !important;
+}
+
+.wrapper.styleCB2077 input[type="submit"].alt:hover,
+.wrapper.styleCB2077 input[type="reset"].alt:hover,
+.wrapper.styleCB2077 input[type="button"].alt:hover,
+.wrapper.styleCB2077 button.alt:hover,
+.wrapper.styleCB2077 .button.alt:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.wrapper.styleCB2077 input[type="submit"].alt:active,
+.wrapper.styleCB2077 input[type="reset"].alt:active,
+.wrapper.styleCB2077 input[type="button"].alt:active,
+.wrapper.styleCB2077 button.alt:active,
+.wrapper.styleCB2077 .button.alt:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.wrapper.styleCB2077 input[type="submit"].alt.icon:before,
+.wrapper.styleCB2077 input[type="reset"].alt.icon:before,
+.wrapper.styleCB2077 input[type="button"].alt.icon:before,
+.wrapper.styleCB2077 button.alt.icon:before,
+.wrapper.styleCB2077 .button.alt.icon:before {
+  color: #999999;
+}
+
+.wrapper.styleCB2077 input[type="submit"].special,
+.wrapper.styleCB2077 input[type="reset"].special,
+.wrapper.styleCB2077 input[type="button"].special,
+.wrapper.styleCB2077 button.special,
+.wrapper.styleCB2077 .button.special {
+  background-color: #8a4680;
+  color: #ffffff !important;
+}
+
+.wrapper.styleCB2077 input[type="submit"].special:hover,
+.wrapper.styleCB2077 input[type="reset"].special:hover,
+.wrapper.styleCB2077 input[type="button"].special:hover,
+.wrapper.styleCB2077 button.special:hover,
+.wrapper.styleCB2077 .button.special:hover {
+  background-color: #9b4f90;
+}
+
+.wrapper.styleCB2077 input[type="submit"].special:active,
+.wrapper.styleCB2077 input[type="reset"].special:active,
+.wrapper.styleCB2077 input[type="button"].special:active,
+.wrapper.styleCB2077 button.special:active,
+.wrapper.styleCB2077 .button.special:active {
+  background-color: #793d70;
+}
+
+.wrapper.styleCB2077 label {
+  color: #000;
+}
+
+.wrapper.styleCB2077 input[type="text"],
+.wrapper.styleCB2077 input[type="password"],
+.wrapper.styleCB2077 input[type="email"],
+.wrapper.styleCB2077 select,
+.wrapper.styleCB2077 textarea {
+  background: rgba(0, 0, 0, 0.075);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleCB2077 input[type="text"]:focus,
+.wrapper.styleCB2077 input[type="password"]:focus,
+.wrapper.styleCB2077 input[type="email"]:focus,
+.wrapper.styleCB2077 select:focus,
+.wrapper.styleCB2077 textarea:focus {
+  border-color: #8a4680;
+  box-shadow: 0 0 0 1px #8a4680;
+}
+
+.wrapper.styleCB2077 .select-wrapper:before {
+  color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleCB2077 input[type="checkbox"] + label,
+.wrapper.styleCB2077 input[type="radio"] + label {
+  color: #a6a6a6;
+}
+
+.wrapper.styleCB2077 input[type="checkbox"] + label:before,
+.wrapper.styleCB2077 input[type="radio"] + label:before {
+  background: rgba(0, 0, 0, 0.075);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleCB2077 input[type="checkbox"]:checked + label:before,
+.wrapper.styleCB2077 input[type="radio"]:checked + label:before {
+  background-color: #8a4680;
+  border-color: #8a4680;
+  color: #ffffff;
+}
+
+.wrapper.styleCB2077 input[type="checkbox"]:focus + label:before,
+.wrapper.styleCB2077 input[type="radio"]:focus + label:before {
+  border-color: #8a4680;
+  box-shadow: 0 0 0 1px #8a4680;
+}
+
+.wrapper.styleCB2077 ::-webkit-input-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleCB2077 :-moz-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleCB2077 ::-moz-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleCB2077 :-ms-input-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleCB2077 .formerize-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleCB2077 ul.alt li {
+  border-top-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleCB2077 header p {
+  color: #999999;
+}
+
+.wrapper.styleCB2077 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleCB2077 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.wrapper.styleCB2077 table th {
+  color: #000;
+}
+
+.wrapper.styleCB2077 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleCB2077 table tfoot {
+  border-top-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleCB2077 table.alt tbody tr td {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleINDJNS {
+  background-color: #f2f2f2;
+  background: rgba(0, 0, 0, 0.418);
+  background-image: url(../../images/Indianajones.jpg);
+  color: #a6a6a6;
+}
+
+.wrapper.styleINDJNS input,
+.wrapper.styleINDJNS select,
+.wrapper.styleINDJNS textarea {
+  color: #000;
+}
+
+.wrapper.styleINDJNS a {
+  color: #8a4680;
+}
+
+.wrapper.styleINDJNS strong,
+.wrapper.styleINDJNS b {
+  color: #000;
+}
+
+.wrapper.styleINDJNS h1,
+.wrapper.styleINDJNS h2,
+.wrapper.styleINDJNS h3,
+.wrapper.styleINDJNS h4,
+.wrapper.styleINDJNS h5,
+.wrapper.styleINDJNS h6 {
+  color: #000;
+}
+
+.wrapper.styleINDJNS blockquote {
+  border-left-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleINDJNS code {
+  background: rgba(0, 0, 0, 0.075);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleINDJNS hr {
+  border-bottom-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleINDJNS .box {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleINDJNS input[type="submit"],
+.wrapper.styleINDJNS input[type="reset"],
+.wrapper.styleINDJNS input[type="button"],
+.wrapper.styleINDJNS button,
+.wrapper.styleINDJNS .button {
+  background-color: #000;
+  color: #f2f2f2 !important;
+}
+
+.wrapper.styleINDJNS input[type="submit"].alt,
+.wrapper.styleINDJNS input[type="reset"].alt,
+.wrapper.styleINDJNS input[type="button"].alt,
+.wrapper.styleINDJNS button.alt,
+.wrapper.styleINDJNS .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);
+  color: #000 !important;
+}
+
+.wrapper.styleINDJNS input[type="submit"].alt:hover,
+.wrapper.styleINDJNS input[type="reset"].alt:hover,
+.wrapper.styleINDJNS input[type="button"].alt:hover,
+.wrapper.styleINDJNS button.alt:hover,
+.wrapper.styleINDJNS .button.alt:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.wrapper.styleINDJNS input[type="submit"].alt:active,
+.wrapper.styleINDJNS input[type="reset"].alt:active,
+.wrapper.styleINDJNS input[type="button"].alt:active,
+.wrapper.styleINDJNS button.alt:active,
+.wrapper.styleINDJNS .button.alt:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.wrapper.styleINDJNS input[type="submit"].alt.icon:before,
+.wrapper.styleINDJNS input[type="reset"].alt.icon:before,
+.wrapper.styleINDJNS input[type="button"].alt.icon:before,
+.wrapper.styleINDJNS button.alt.icon:before,
+.wrapper.styleINDJNS .button.alt.icon:before {
+  color: #999999;
+}
+
+.wrapper.styleINDJNS input[type="submit"].special,
+.wrapper.styleINDJNS input[type="reset"].special,
+.wrapper.styleINDJNS input[type="button"].special,
+.wrapper.styleINDJNS button.special,
+.wrapper.styleINDJNS .button.special {
+  background-color: #8a4680;
+  color: #ffffff !important;
+}
+
+.wrapper.styleINDJNS input[type="submit"].special:hover,
+.wrapper.styleINDJNS input[type="reset"].special:hover,
+.wrapper.styleINDJNS input[type="button"].special:hover,
+.wrapper.styleINDJNS button.special:hover,
+.wrapper.styleINDJNS .button.special:hover {
+  background-color: #9b4f90;
+}
+
+.wrapper.styleINDJNS input[type="submit"].special:active,
+.wrapper.styleINDJNS input[type="reset"].special:active,
+.wrapper.styleINDJNS input[type="button"].special:active,
+.wrapper.styleINDJNS button.special:active,
+.wrapper.styleINDJNS .button.special:active {
+  background-color: #793d70;
+}
+
+.wrapper.styleINDJNS label {
+  color: #000;
+}
+
+.wrapper.styleINDJNS input[type="text"],
+.wrapper.styleINDJNS input[type="password"],
+.wrapper.styleINDJNS input[type="email"],
+.wrapper.styleINDJNS select,
+.wrapper.styleINDJNS textarea {
+  background: rgba(0, 0, 0, 0.075);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleINDJNS input[type="text"]:focus,
+.wrapper.styleINDJNS input[type="password"]:focus,
+.wrapper.styleINDJNS input[type="email"]:focus,
+.wrapper.styleINDJNS select:focus,
+.wrapper.styleINDJNS textarea:focus {
+  border-color: #8a4680;
+  box-shadow: 0 0 0 1px #8a4680;
+}
+
+.wrapper.styleINDJNS .select-wrapper:before {
+  color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleINDJNS input[type="checkbox"] + label,
+.wrapper.styleINDJNS input[type="radio"] + label {
+  color: #a6a6a6;
+}
+
+.wrapper.styleINDJNS input[type="checkbox"] + label:before,
+.wrapper.styleINDJNS input[type="radio"] + label:before {
+  background: rgba(0, 0, 0, 0.075);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleINDJNS input[type="checkbox"]:checked + label:before,
+.wrapper.styleINDJNS input[type="radio"]:checked + label:before {
+  background-color: #8a4680;
+  border-color: #8a4680;
+  color: #ffffff;
+}
+
+.wrapper.styleINDJNS input[type="checkbox"]:focus + label:before,
+.wrapper.styleINDJNS input[type="radio"]:focus + label:before {
+  border-color: #8a4680;
+  box-shadow: 0 0 0 1px #8a4680;
+}
+
+.wrapper.styleINDJNS ::-webkit-input-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleINDJNS :-moz-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleINDJNS ::-moz-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleINDJNS :-ms-input-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleINDJNS .formerize-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleINDJNS ul.alt li {
+  border-top-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleINDJNS header p {
+  color: #999999;
+}
+
+.wrapper.styleINDJNS table tbody tr {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleINDJNS table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.wrapper.styleINDJNS table th {
+  color: #000;
+}
+
+.wrapper.styleINDJNS table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleINDJNS table tfoot {
+  border-top-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleINDJNS table.alt tbody tr td {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleALNWK2 {
+  background-color: #f2f2f2;
+  background: rgba(0, 0, 0, 0.418);
+  background-image: url(../../images/alanawake2.jpg);
+  color: #a6a6a6;
+}
+
+.wrapper.styleALNWK2 input,
+.wrapper.styleALNWK2 select,
+.wrapper.styleALNWK2 textarea {
+  color: #000;
+}
+
+.wrapper.styleALNWK2 a {
+  color: #8a4680;
+}
+
+.wrapper.styleALNWK2 strong,
+.wrapper.styleALNWK2 b {
+  color: #000;
+}
+
+.wrapper.styleALNWK2 h1,
+.wrapper.styleALNWK2 h2,
+.wrapper.styleALNWK2 h3,
+.wrapper.styleALNWK2 h4,
+.wrapper.styleALNWK2 h5,
+.wrapper.styleALNWK2 h6 {
+  color: #000;
+}
+
+.wrapper.styleALNWK2 blockquote {
+  border-left-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleALNWK2 code {
+  background: rgba(0, 0, 0, 0.075);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleALNWK2 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleALNWK2 .box {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleALNWK2 input[type="submit"],
+.wrapper.styleALNWK2 input[type="reset"],
+.wrapper.styleALNWK2 input[type="button"],
+.wrapper.styleALNWK2 button,
+.wrapper.styleALNWK2 .button {
+  background-color: #000;
+  color: #f2f2f2 !important;
+}
+
+.wrapper.styleALNWK2 input[type="submit"].alt,
+.wrapper.styleALNWK2 input[type="reset"].alt,
+.wrapper.styleALNWK2 input[type="button"].alt,
+.wrapper.styleALNWK2 button.alt,
+.wrapper.styleALNWK2 .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);
+  color: #000 !important;
+}
+
+.wrapper.styleALNWK2 input[type="submit"].alt:hover,
+.wrapper.styleALNWK2 input[type="reset"].alt:hover,
+.wrapper.styleALNWK2 input[type="button"].alt:hover,
+.wrapper.styleALNWK2 button.alt:hover,
+.wrapper.styleALNWK2 .button.alt:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.wrapper.styleALNWK2 input[type="submit"].alt:active,
+.wrapper.styleALNWK2 input[type="reset"].alt:active,
+.wrapper.styleALNWK2 input[type="button"].alt:active,
+.wrapper.styleALNWK2 button.alt:active,
+.wrapper.styleALNWK2 .button.alt:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.wrapper.styleALNWK2 input[type="submit"].alt.icon:before,
+.wrapper.styleALNWK2 input[type="reset"].alt.icon:before,
+.wrapper.styleALNWK2 input[type="button"].alt.icon:before,
+.wrapper.styleALNWK2 button.alt.icon:before,
+.wrapper.styleALNWK2 .button.alt.icon:before {
+  color: #999999;
+}
+
+.wrapper.styleALNWK2 input[type="submit"].special,
+.wrapper.styleALNWK2 input[type="reset"].special,
+.wrapper.styleALNWK2 input[type="button"].special,
+.wrapper.styleALNWK2 button.special,
+.wrapper.styleALNWK2 .button.special {
+  background-color: #8a4680;
+  color: #ffffff !important;
+}
+
+.wrapper.styleALNWK2 input[type="submit"].special:hover,
+.wrapper.styleALNWK2 input[type="reset"].special:hover,
+.wrapper.styleALNWK2 input[type="button"].special:hover,
+.wrapper.styleALNWK2 button.special:hover,
+.wrapper.styleALNWK2 .button.special:hover {
+  background-color: #9b4f90;
+}
+
+.wrapper.styleALNWK2 input[type="submit"].special:active,
+.wrapper.styleALNWK2 input[type="reset"].special:active,
+.wrapper.styleALNWK2 input[type="button"].special:active,
+.wrapper.styleALNWK2 button.special:active,
+.wrapper.styleALNWK2 .button.special:active {
+  background-color: #793d70;
+}
+
+.wrapper.styleALNWK2 label {
+  color: #000;
+}
+
+.wrapper.styleALNWK2 input[type="text"],
+.wrapper.styleALNWK2 input[type="password"],
+.wrapper.styleALNWK2 input[type="email"],
+.wrapper.styleALNWK2 select,
+.wrapper.styleALNWK2 textarea {
+  background: rgba(0, 0, 0, 0.075);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleALNWK2 input[type="text"]:focus,
+.wrapper.styleALNWK2 input[type="password"]:focus,
+.wrapper.styleALNWK2 input[type="email"]:focus,
+.wrapper.styleALNWK2 select:focus,
+.wrapper.styleALNWK2 textarea:focus {
+  border-color: #8a4680;
+  box-shadow: 0 0 0 1px #8a4680;
+}
+
+.wrapper.styleALNWK2 .select-wrapper:before {
+  color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleALNWK2 input[type="checkbox"] + label,
+.wrapper.styleALNWK2 input[type="radio"] + label {
+  color: #a6a6a6;
+}
+
+.wrapper.styleALNWK2 input[type="checkbox"] + label:before,
+.wrapper.styleALNWK2 input[type="radio"] + label:before {
+  background: rgba(0, 0, 0, 0.075);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleALNWK2 input[type="checkbox"]:checked + label:before,
+.wrapper.styleALNWK2 input[type="radio"]:checked + label:before {
+  background-color: #8a4680;
+  border-color: #8a4680;
+  color: #ffffff;
+}
+
+.wrapper.styleALNWK2 input[type="checkbox"]:focus + label:before,
+.wrapper.styleALNWK2 input[type="radio"]:focus + label:before {
+  border-color: #8a4680;
+  box-shadow: 0 0 0 1px #8a4680;
+}
+
+.wrapper.styleALNWK2 ::-webkit-input-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleALNWK2 :-moz-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleALNWK2 ::-moz-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleALNWK2 :-ms-input-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleALNWK2 .formerize-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleALNWK2 ul.alt li {
+  border-top-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleALNWK2 header p {
+  color: #999999;
+}
+
+.wrapper.styleALNWK2 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleALNWK2 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.wrapper.styleALNWK2 table th {
+  color: #000;
+}
+
+.wrapper.styleALNWK2 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleALNWK2 table tfoot {
+  border-top-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.styleALNWK2 table.alt tbody tr td {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
 .wrapper.style3 {
   background-color: #000;
   color: #bfbfbf;
