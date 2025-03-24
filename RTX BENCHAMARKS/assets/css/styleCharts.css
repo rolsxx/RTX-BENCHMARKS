@@ -1,0 +1,21 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.chart-container {
+    width: 95%;
+    max-width: 1400px; /* Increased width */
+    height: 700px; /* Increased height */
+    margin: auto;
+    padding-top: 50px;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
