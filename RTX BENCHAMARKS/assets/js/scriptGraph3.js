@@ -81,7 +81,7 @@ function createChart(canvasId, resolutionData, title, yAxisLabel) {
                 },
                 tooltip: {
                     enabled: true,
-                    backgroundColor: "rgba(0, 0, 0, 0.7)",
+                    backgroundColor: "rgba(0, 0, 0, 0.59)",
                     titleFont: { size: 14 },
                     bodyFont: { size: 12 },
                     padding: 10
