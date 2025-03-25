@@ -6022,3 +6022,8 @@ body.is-mobile .banner > article {
   right: 20px;
   z-index: 1000;
 }
+#menu ul.links li a {
+  display: inline-block !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
