@@ -26,20 +26,22 @@
           <li><a href="generic.html">RTX 2080 TI</a></li>
           <li><a href="generic2.html">RTX 3090 TI</a></li>
           <li><a href="generic3.html">RTX 4090 </a></li>
-                  <li><a href="generic4.html">RTX 5090 </a></li>
-  
+          <li><a href="generic4.html">RTX 5090 </a></li>
           <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" aria-expanded="false">BENCHMARKS </a>
-                      <ul class="dropdown-menu">
-                          <li><a href="CyberPunk2077.html">Cyberpunk 2077</a></li>
-                          <li><a href="Indiana Jones.html">Indiana Jones</a></li>
-                          <li><a href="AlanAwake2.html">Alan Awake 2</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="about.html">Sobre Nós</a></li>
-          
+            <a href="#" class="dropdown-toggle" aria-expanded="false"
+              >BENCHMARKS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="CyberPunk2077.html">Cyberpunk 2077</a></li>
+              <li><a href="Indiana Jones.html">Indiana Jones</a></li>
+              <li><a href="AlanAwake2.html">Alan Awake 2</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">Sobre Nós</a></li>
+          <li><a href="contact.html">Contato</a></li>
         </ul>
       </nav>
+  
     <!-- Sobre Nós Section -->
     <section id="sobre-nos" class="wrapper style6">
         <div class="inner">
@@ -92,36 +94,27 @@
             <p>&copy; 2025 RTX BENCHMARKS. Todos os direitos reservados.</p>
         </div>
     </footer>
-    <script src="assets/js/chart.js"></script>
-<script src="assets/js/chartjs-plugin-datalabels.js"></script>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
-<script src="assets/js/scriptGraph.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const dropdownToggle = document.querySelector(".dropdown-toggle");
-    const dropdownMenu = document.querySelector(".dropdown-menu");
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdownToggle = document.querySelector('.dropdown-toggle');
+            const dropdownMenu = document.querySelector('.dropdown-menu');
+    
+            dropdownToggle.addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default link behavior
+                const isExpanded = dropdownMenu.classList.toggle('show'); // Toggle the show class
+                dropdownToggle.setAttribute('aria-expanded', isExpanded); // Update ARIA attribute
+            });
+    
+            // Optional: Close the dropdown when clicking outside
+            document.addEventListener('click', function (event) {
+                if (!dropdownToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                    dropdownMenu.classList.remove('show');
+                    dropdownToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    </script>
+        <script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrollex.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><script src="assets/js/main.js"></script></body></html>
 
-    dropdownToggle.addEventListener("click", function (event) {
-      event.preventDefault(); // Prevent the default link behavior
-      const isExpanded = dropdownMenu.classList.toggle("show"); // Toggle the show class
-      dropdownToggle.setAttribute("aria-expanded", isExpanded); // Update ARIA attribute
-    });
-
-    // Optional: Close the dropdown when clicking outside
-    document.addEventListener("click", function (event) {
-      if (
-        !dropdownToggle.contains(event.target) &&
-        !dropdownMenu.contains(event.target)
-      ) {
-        dropdownMenu.classList.remove("show");
-        dropdownToggle.setAttribute("aria-expanded", "false");
-      }
-    });
-  });
-</script>
 </body>
 </html>

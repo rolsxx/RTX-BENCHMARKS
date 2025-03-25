@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Contato</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body class="subpage">
+    <!-- Header -->
+    <header id="header">
+        <div class="logo"><a href="index.html">RTX BENCHMARKS</a></div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="generic.html">RTX 2080 TI</a></li>
+            <li><a href="generic2.html">RTX 3090 TI</a></li>
+            <li><a href="generic3.html">RTX 4090 </a></li>
+            <li><a href="generic4.html">RTX 5090 </a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" aria-expanded="false">BENCHMARKS </a>
+                <ul class="dropdown-menu">
+                    <li><a href="CyberPunk2077.html">Cyberpunk 2077</a></li>
+                    <li><a href="Indiana Jones.html">Indiana Jones</a></li>
+                    <li><a href="AlanAwake2.html">Alan Awake 2</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">Sobre Nós</a></li>
+            <li><a href="contact.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact" class="wrapper style6">
+        <div class="inner">
+            <header>
+                <h2>Entre em Contato</h2>
+                <p>Se tiver dúvidas ou sugestões, entre em contato conosco!</p>
+            </header>
+            <form method="post" action="#">
+                <div class="fields">
+                    <div class="field half">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="field half">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Seu E-mail" required>
+                    </div>
+                    <div class="field">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" rows="6" placeholder="Sua Mensagem" required></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Enviar" class="primary"></li>
+                </ul>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <ul class="icons">
+                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            </ul>
+            <p>&copy; 2025 RTX BENCHMARKS. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdownToggle = document.querySelector('.dropdown-toggle');
+            const dropdownMenu = document.querySelector('.dropdown-menu');
+    
+            dropdownToggle.addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default link behavior
+                const isExpanded = dropdownMenu.classList.toggle('show'); // Toggle the show class
+                dropdownToggle.setAttribute('aria-expanded', isExpanded); // Update ARIA attribute
+            });
+    
+            // Optional: Close the dropdown when clicking outside
+            document.addEventListener('click', function (event) {
+                if (!dropdownToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                    dropdownMenu.classList.remove('show');
+                    dropdownToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
