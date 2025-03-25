@@ -6008,3 +6008,17 @@ body.is-mobile .banner > article {
     padding: 3rem 0 1rem 0;
   }
 }
+
+
+.wrapper.style5::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url('../../images/OIP.jpg');
+  background-size: cover;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
