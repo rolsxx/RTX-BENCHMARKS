@@ -143,6 +143,6 @@ const data2160pIndiana = {
 };
 
 // Create the charts for Indiana Jones
-createChart("chart1080pIndiana", data1080pIndiana, "1080p (Full HD) - Ultra Settings", "Indiana Jones - Ultra settings 1080p");
-createChart("chart1440pIndiana", data1440pIndiana, "1440p (QHD) - Ultra Settings", "Indiana Jones - Ultra settings 1440p");
-createChart("chart2160pIndiana", data2160pIndiana, "2160p (4K) - Ultra Settings", "Indiana Jones - Ultra settings 2160p");
+createChart("chart1080pIndiana", data1080pIndiana, "1080p (Full HD) - Ultra Settings", "AMD Ryzen 7 7800X3D - 1080p");
+createChart("chart1440pIndiana", data1440pIndiana, "1440p (QHD) - Ultra Settings", "AMD Ryzen 7 7800X3D - 1440p");
+createChart("chart2160pIndiana", data2160pIndiana, "2160p (4K) - Ultra Settings",  "AMD Ryzen 7 7800X3D - 2160p");

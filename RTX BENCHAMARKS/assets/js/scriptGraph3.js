@@ -143,6 +143,6 @@ const data2160pAlanWake = {
 };
 
 // Create the charts for Alan Wake 2
-createChart("chart1080pAlanWake", data1080pAlanWake, "1080p (Full HD) - High Settings", "Alan Wake 2 - High settings 1080p");
-createChart("chart1440pAlanWake", data1440pAlanWake, "1440p (QHD) - High Settings", "Alan Wake 2 - High settings 1440p");
-createChart("chart2160pAlanWake", data2160pAlanWake, "2160p (4K) - High Settings", "Alan Wake 2 - High settings 2160p");
+createChart("chart1080pAlanWake", data1080pAlanWake, "1080p (Full HD) - High Settings", "AMD Ryzen 7 7800X3D - 1080p");
+createChart("chart1440pAlanWake", data1440pAlanWake, "1440p (QHD) - High Settings", "AMD Ryzen 7 7800X3D - 1440p");
+createChart("chart2160pAlanWake", data2160pAlanWake, "2160p (4K) - High Settings", "AMD Ryzen 7 7800X3D - 2160p");

@@ -145,6 +145,6 @@ const data2160p = {
 };
 
 // Create the charts for Cyberpunk 2077
-createChart("chart1080p", data1080p, "1080p (Full HD) - Ultra Settings", "CyberPunk 2077 - Ultra settings 1080p");
-createChart("chart1440p", data1440p, "1440p (QHD) - Ultra Settings", "CyberPunk 2077 - Ultra settings 1440p");
-createChart("chart2160p", data2160p, "2160p (4K) - Ultra Settings", "CyberPunk 2077 - Ultra settings 2160p");
+createChart("chart1080p", data1080p, "1080p (Full HD) - Ultra Settings", "AMD Ryzen 7 7800X3D - 1080p");
+createChart("chart1440p", data1440p, "1440p (QHD) - Ultra Settings", "AMD Ryzen 7 7800X3D - 1440p");
+createChart("chart2160p", data2160p, "2160p (4K) - Ultra Settings", "AMD Ryzen 7 7800X3D - 2160p");

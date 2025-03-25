@@ -1988,8 +1988,13 @@ hr {
 /* Box */
 
 .box {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   background: rgba(0, 0, 0, 0.596);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px; 
 }
 
 .box .image.fit {
@@ -6010,18 +6015,6 @@ body.is-mobile .banner > article {
 }
 
 
-.wrapper.style5::after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 100px;
-  background-image: url('../../images/OIP.jpg');
-  background-size: cover;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-}
 #menu ul.links li a {
   display: inline-block !important;
   color: #fff !important;
