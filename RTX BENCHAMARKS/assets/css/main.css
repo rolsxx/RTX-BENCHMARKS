@@ -1955,7 +1955,7 @@ textarea {
 }
 
 a {
-  color: #8a4680;
+  color: #00000000;
 }
 
 strong,
@@ -5373,6 +5373,31 @@ table.alt tbody tr td {
   width: 100%;
   z-index: 1;
 }
+
+/* Estilo para a tabela com a foto */
+.foto-tabela {
+  border: 1px solid rgba(255, 255, 255, 0.25); /* Define bordas leves */
+  border-collapse: collapse; /* Remove espaços entre as células */
+  width: auto; /* Ajusta automaticamente ao conteúdo */
+  margin: 1rem 0; /* Adiciona espaçamento acima e abaixo */
+}
+
+.foto-tabela td {
+  border: 1px solid rgba(255, 255, 255, 0.25); /* Bordas das células */
+  padding: 10px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o conteúdo */
+  vertical-align: middle; /* Centraliza verticalmente */
+}
+
+.foto-tabela td img {
+  display: block;
+  max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho da célula */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+
+
+
 
 @media screen and (max-width: 1280px) {
   .wrapper > .inner {
