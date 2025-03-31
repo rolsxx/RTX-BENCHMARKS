@@ -81,5 +81,24 @@
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <form method="post" action="assets/css/backend.php">
+        <div class="fields">
+            <div class="field half">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Seu Nome" required>
+            </div>
+            <div class="field half">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Seu E-mail" required>
+            </div>
+            <div class="field">
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" rows="6" placeholder="Sua Mensagem" required></textarea>
+            </div>
+        </div>
+        <ul class="actions">
+            <li><input type="submit" value="Enviar" class="primary"></li>
+        </ul>
+    </form>
 </body>
 </html>
