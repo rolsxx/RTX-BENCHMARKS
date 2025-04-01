@@ -84,9 +84,7 @@ h4 {
   text-decoration: none;
 }
 
-.dropdown-menu li a:hover {
-  background-color: #555;
-}
+
 
 .dropdown-menu.show {
   max-height: 200px;
