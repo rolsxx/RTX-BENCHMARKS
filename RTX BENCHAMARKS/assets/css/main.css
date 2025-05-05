@@ -1865,7 +1865,7 @@ h6 a {
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 h3 {
@@ -2009,7 +2009,7 @@ ul {
 
 ul li {
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 /* Box */
@@ -2598,7 +2598,7 @@ ol li {
   margin-left: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.65;
   text-align: left;
 }
@@ -4206,7 +4206,7 @@ table.alt tbody tr td {
 }
 
 .wrapper.style3 header p {
-  color: #999999;
+  color: #ffffff;
 }
 
 .wrapper.style3 table tbody tr {
@@ -4240,7 +4240,7 @@ table.alt tbody tr td {
 
 .wrapper.style3 p {
   text-transform: uppercase;
-  font-size: 0.75rem;
+
   font-weight: 300;
   margin: 0 0 0.5rem 0;
   padding: 0 0 1rem 0;
@@ -4524,7 +4524,6 @@ table.alt tbody tr td {
 
 .wrapper.style4 p {
   text-transform: uppercase;
-  font-size: 0.75rem;
   font-weight: 300;
   margin: 0 0 0.5rem 0;
   padding: 0 0 1rem 0;
@@ -4808,7 +4807,6 @@ table.alt tbody tr td {
 
 .wrapper.style5 p {
   text-transform: uppercase;
-  font-size: 0.75rem;
   font-weight: 300;
   margin: 0 0 0.5rem 0;
   padding: 0 0 1rem 0;
@@ -5092,7 +5090,6 @@ table.alt tbody tr td {
 
 .wrapper.style6 p {
   text-transform: uppercase;
-  font-size: 0.75rem;
   font-weight: 300;
   margin: 0 0 0.5rem 0;
   padding: 0 0 1rem 0;
@@ -5149,6 +5146,7 @@ table.alt tbody tr td {
 
 .wrapper.styleNoticias a {
   color: white;
+  font-size: 1.2rem;
 }
 
 .wrapper.styleNoticias strong,
@@ -5378,7 +5376,7 @@ table.alt tbody tr td {
 .wrapper.styleNoticias p {
   color: white;
   text-transform: uppercase; /* Options: lowercase, capitalize, none, inherit, initial */
-  font-size: 0.85rem;
+
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -5664,7 +5662,6 @@ table.alt tbody tr td {
 .wrapper.styleDrivers p {
   color: white;
   text-transform: uppercase; /* Options: lowercase, capitalize, none, inherit, initial */
-  font-size: 0.85rem;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -6236,7 +6233,6 @@ table.alt tbody tr td {
 
 .wrapper.style.Guia p {
   text-transform: uppercase;
-  font-size: 0.75rem;
   font-weight: 300;
   margin: 0 0 0.5rem 0;
   padding: 0 0 1rem 0;
