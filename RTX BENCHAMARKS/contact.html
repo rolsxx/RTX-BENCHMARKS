@@ -1,80 +1,118 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Contato</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/styleCharts.css"/>
-</head>
-<body class="subpage">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/styleCharts.css" />
+  </head>
+  <body class="subpage">
     <!-- Header -->
     <header id="header">
-        <div class="logo"><a href="index.html">RTX BENCHMARKS</a></div>
-        <a href="#menu">Menu</a>
+      <div class="logo"><a href="index.html">RTX BENCHMARKS</a></div>
+      <a href="#menu">Menu</a>
     </header>
 
     <!-- Nav -->
     <nav id="menu">
-        <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="generic.html">RTX 2080 TI</a></li>
-            <li><a href="generic2.html">RTX 3090 TI</a></li>
-            <li><a href="generic3.html">RTX 4090 </a></li>
-            <li><a href="generic4.html">RTX 5090 </a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" aria-expanded="false">BENCHMARKS </a>
-                <ul class="dropdown-menu">
-                    <li><a href="CyberPunk2077.html">Cyberpunk 2077</a></li>
-                    <li><a href="Indiana Jones.html">Indiana Jones</a></li>
-                    <li><a href="AlanAwake2.html">Alan Awake 2</a></li>
-                </ul>
-            </li>
-            <li><a href="about.html">Sobre Nós</a></li>
-            <li><a href="contact.html">Contato</a></li>
-        </ul>
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="generic.html">RTX 2080 TI</a></li>
+        <li><a href="generic2.html">RTX 3090 TI</a></li>
+        <li><a href="generic3.html">RTX 4090 </a></li>
+        <li><a href="generic4.html">RTX 5090 </a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" aria-expanded="false"
+            >BENCHMARKS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="CyberPunk2077.html">Cyberpunk 2077</a></li>
+            <li><a href="Indiana Jones.html">Indiana Jones</a></li>
+            <li><a href="AlanAwake2.html">Alan Awake 2</a></li>
+          </ul>
+        </li>
+        <li><a href="GuiadeCompra.html">Guia de Compra</a></li>
+        <li><a href="noticias.html">Notícias </a></li>
+        <li><a href="about.html">Sobre Nós</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
     </nav>
 
     <!-- Contact Section -->
     <section id="contact" class="wrapper style6">
-        <div class="inner">
-            <header>
-                <h2>Entre em Contato</h2>
-                <p>Se tiver dúvidas ou sugestões, entre em contato conosco!</p>
-            </header>
-            <form id="contactForm" onsubmit="return sendMail(this)">
-                <div class="fields">
-                    <div class="field half">
-                        <label for="name">Nome</label>
-                        <input type="text" name="name" id="name" placeholder="Seu Nome" required>
-                    </div>
-                    <div class="field half">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" placeholder="Seu E-mail" required>
-                    </div>
-                    <div class="field">
-                        <label for="message">Mensagem</label>
-                        <textarea name="message" id="message" rows="6" placeholder="Sua Mensagem" required></textarea>
-                    </div>
-                </div>
-                <ul class="actions">
-                    <li><input type="submit" value="Enviar" class="primary"></li>
-                </ul>
-            </form>
-        </div>
+      <div class="inner">
+        <header>
+          <h2>Entre em Contato</h2>
+          <p>Se tiver dúvidas ou sugestões, entre em contato conosco!</p>
+        </header>
+        <form id="contactForm" onsubmit="return sendMail(this)">
+          <div class="fields">
+            <div class="field half">
+              <label for="name">Nome</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Seu Nome"
+                required
+              />
+            </div>
+            <div class="field half">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Seu E-mail"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="message">Mensagem</label>
+              <textarea
+                name="message"
+                id="message"
+                rows="6"
+                placeholder="Sua Mensagem"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <ul class="actions">
+            <li><input type="submit" value="Enviar" class="primary" /></li>
+          </ul>
+        </form>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer id="footer">
-        <div class="container">
-            <ul class="icons">
-                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-            </ul>
-            <p>© 2025 RTX BENCHMARKS. Todos os direitos reservados.</p>
-        </div>
+      <div class="container">
+        <ul class="icons">
+          <li>
+            <a href="#" class="icon fa-twitter"
+              ><span class="label">Twitter</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon fa-facebook"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon fa-envelope-o"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+        <p>© 2025 RTX BENCHMARKS. Todos os direitos reservados.</p>
+      </div>
     </footer>
 
     <!-- Scripts -->
@@ -86,30 +124,40 @@
     <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4.4.1/dist/email.min.js"></script>
     <script>
-        (function() {
-            emailjs.init("jFAFivMo6VOqDPdzH");
-        })();
+      (function () {
+        emailjs.init("jFAFivMo6VOqDPdzH");
+      })();
 
-        function sendMail(form) {
-            const currentTime = new Date().toLocaleString();
+      function sendMail(form) {
+        const currentTime = new Date().toLocaleString();
 
-            const params = {
-                name: form.name.value,  
-                time: currentTime,      
-                email: form.email.value, 
-                message: form.message.value
-            };
+        const params = {
+          name: form.name.value,
+          time: currentTime,
+          email: form.email.value,
+          message: form.message.value,
+        };
 
-            emailjs.send("service_c3tbl8r", "template_te3zw7f", params)
-                .then(function(response) {
-                    alert("\nname: " + name + "\nmessage: " + message + "\nemail: " + email + "\nMensagem enviada com sucesso!");
-                    form.reset();
-                }, function(error) {
-                    alert("Erro ao enviar a mensagem: " + JSON.stringify(error));
-                });
+        emailjs.send("service_c3tbl8r", "template_te3zw7f", params).then(
+          function (response) {
+            alert(
+              "\nname: " +
+                name +
+                "\nmessage: " +
+                message +
+                "\nemail: " +
+                email +
+                "\nMensagem enviada com sucesso!"
+            );
+            form.reset();
+          },
+          function (error) {
+            alert("Erro ao enviar a mensagem: " + JSON.stringify(error));
+          }
+        );
 
-            return false;
-        }
+        return false;
+      }
     </script>
-</body>
+  </body>
 </html>

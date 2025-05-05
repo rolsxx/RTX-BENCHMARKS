@@ -32,6 +32,7 @@ h3 {
   color: white !important;
   font-size: 24px;
   margin-bottom: 15px;
+
   text-align: center;
 }
 
@@ -83,8 +84,6 @@ h4 {
   color: #fff;
   text-decoration: none;
 }
-
-
 
 .dropdown-menu.show {
   max-height: 200px;

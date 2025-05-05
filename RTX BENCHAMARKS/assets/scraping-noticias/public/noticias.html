@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Notícias</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/styleCharts.css">
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/dropdown.js"></script>
+</head>
+<script>
+    async function carregarNoticias() {
+      try {
+        const response = await fetch("/api/noticias");
+        const noticias = await response.json();
+        const lista = document.getElementById("noticias-lista");
+        lista.innerHTML = "";
+
+        noticias.forEach((noticia) => {
+          const item = document.createElement("li");
+          item.innerHTML = `<a href="${noticia.link}" target="_blank">${noticia.titulo}</a>`;
+          lista.appendChild(item);
+        });
+      } catch (error) {
+        console.error("Erro ao carregar notícias:", error);
+        const lista = document.getElementById("noticias-lista");
+        lista.innerHTML =
+          "<li>Erro ao carregar notícias. Tente novamente mais tarde.</li>";
+      }
+    }
+
+    window.onload = carregarNoticias;
+  </script>
+<body class="subpage">
+    <!-- Header -->
+    <header id="header">
+        <div class="logo"><a href="index.html">RTX BENCHMARKS</a></div>
+        <a href="#menu">Menu</a>
+    </header>
+    
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="generic.html">RTX 2080 TI</a></li>
+            <li><a href="generic2.html">RTX 3090 TI</a></li>
+            <li><a href="generic3.html">RTX 4090 </a></li>
+            <li><a href="generic4.html">RTX 5090 </a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" aria-expanded="false"
+                >BENCHMARKS
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="CyberPunk2077.html">Cyberpunk 2077</a></li>
+                <li><a href="Indiana Jones.html">Indiana Jones</a></li>
+                <li><a href="AlanAwake2.html">Alan Awake 2</a></li>
+            </ul>
+        </li>
+        <li><a href="GuiadeCompra.html">Guia de Compra</a></li>
+        <li><a href="noticias.html">Notícias </a></li>
+        <li><a href="drivers.html">Drivers</a></li>
+        <li><a href="about.html">SOBRE NÓS</a></li>
+        <li><a href="contact.html">Contato</a></li>
+    </ul>
+</nav>
+
+<!-- Main -->
+
+<section id="noticias" class="wrapper styleNoticias" >
+  <div class="inner">
+        <header>
+          <h2>Últimas Notícias</h2>
+          <p style="color: white">As últimas notícias sobre placas gráficas RTX</p>
+        </header>
+        <div class="content"  >
+          <ul id="noticias-lista">
+            <li>Carregando notícias...</li>
+            <li><a href="https://example.com/noticia1" target="_blank">Notícia 1</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <ul class="icons">
+                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            </ul>
+            <p>&copy; 2025 RTX BENCHMARKS. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="assets/js/dropdown.js"></script>
+    <script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrollex.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><script src="assets/js/main.js"></script></body></html>
+
+</body>
+</html>

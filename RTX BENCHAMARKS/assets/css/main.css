@@ -1955,7 +1955,12 @@ textarea {
 }
 
 a {
-  color: #00000000;
+  color: #0078d7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 strong,
@@ -1969,7 +1974,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #555;
+  color: #ffffff;
 }
 
 blockquote {
@@ -1983,6 +1988,28 @@ code {
 
 hr {
   border-bottom-color: rgba(144, 144, 144, 0.25);
+}
+
+/* Estilo para a lista ordenada */
+ol {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+ol li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Estilo para a lista não ordenada */
+ul {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 /* Box */
@@ -2560,21 +2587,39 @@ input[type="radio"]:focus + label:before {
 ol {
   list-style: decimal;
   margin: 0 0 2rem 0;
-  padding-left: 1.25rem;
+
+  margin-left: 0;
+  list-style-position: outside; /* Faz com que os números fiquem fora do bloco de texto */
+  padding-left: 1.5rem; /* Faz com que os números fiquem dentro do bloco de texto */
+  /* Remove o recuo padrão */
 }
 
 ol li {
-  padding-left: 0.25rem;
+  margin-left: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.65;
+  text-align: left;
+}
+ol li::marker {
+  font-weight: bold; /* Deixa os números em negrito */
+  padding-right: 0.9rem;
 }
 
 ul {
-  list-style: disc;
-  margin: 0 0 2rem 0;
-  padding-left: 1rem;
+  list-style: disc; /* Define os marcadores como pontinhos */
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 20px; /* Adiciona recuo para os marcadores aparecerem */
+  margin-left: 0; /* Ajusta a margem, se necessário */
+  margin-left: 0;
 }
 
 ul li {
-  padding-left: 0.5rem;
+  list-style-position: outside;
+  text-align: left;
 }
 
 ul.alt {
@@ -2620,7 +2665,7 @@ ul.actions {
 ul.actions li {
   display: inline-block;
   padding: 0 1rem 0 0;
-  vertical-align: middle;
+  vertical-align: center;
 }
 
 ul.actions li:last-child {
@@ -2686,7 +2731,7 @@ ul.actions.fit.small li {
   ul.actions li {
     padding: 1rem 0 0 0;
     display: block;
-    text-align: center;
+    text-align: right;
     width: 100%;
   }
 
@@ -2760,7 +2805,7 @@ header h6 + p {
 }
 
 header p {
-  color: #bbb;
+  color: #ffffff;
 }
 
 /* Table */
@@ -5086,6 +5131,579 @@ table.alt tbody tr td {
   width: 100%;
   z-index: 1;
 }
+.wrapper.styleNoticias {
+  background-color: #000;
+  color: #bfbfbf;
+  background-image: url(../../images/top4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.wrapper.styleNoticias input,
+.wrapper.styleNoticias select,
+.wrapper.styleNoticias textarea {
+  color: #ffffff;
+}
+
+.wrapper.styleNoticias a {
+  color: white;
+}
+
+.wrapper.styleNoticias strong,
+.wrapper.styleNoticias b {
+  color: #ffffff;
+}
+
+.wrapper.styleNoticias h1,
+.wrapper.styleNoticias h2,
+.wrapper.styleNoticias h3,
+.wrapper.styleNoticias h4,
+.wrapper.styleNoticias h5,
+.wrapper.styleNoticias h6 {
+  color: #ffffff;
+}
+
+.wrapper.styleNoticias blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleNoticias code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleNoticias hr {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleNoticias .box {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleNoticias input[type="submit"],
+.wrapper.styleNoticias input[type="reset"],
+.wrapper.styleNoticias input[type="button"],
+.wrapper.styleNoticias button,
+.wrapper.styleNoticias .button {
+  background-color: #f2f2f2;
+  color: #000 !important;
+}
+
+.wrapper.styleNoticias input[type="submit"]:hover,
+.wrapper.styleNoticias input[type="reset"]:hover,
+.wrapper.styleNoticias input[type="button"]:hover,
+.wrapper.styleNoticias button:hover,
+.wrapper.styleNoticias .button:hover {
+  background-color: white;
+}
+
+.wrapper.styleNoticias input[type="submit"]:active,
+.wrapper.styleNoticias input[type="reset"]:active,
+.wrapper.styleNoticias input[type="button"]:active,
+.wrapper.styleNoticias button:active,
+.wrapper.styleNoticias .button:active {
+  background-color: #e5e5e5;
+}
+
+.wrapper.styleNoticias input[type="submit"].alt,
+.wrapper.styleNoticias input[type="reset"].alt,
+.wrapper.styleNoticias input[type="button"].alt,
+.wrapper.styleNoticias button.alt,
+.wrapper.styleNoticias .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+  color: #ffffff !important;
+}
+
+.wrapper.styleNoticias input[type="submit"].alt:hover,
+.wrapper.styleNoticias input[type="reset"].alt:hover,
+.wrapper.styleNoticias input[type="button"].alt:hover,
+.wrapper.styleNoticias button.alt:hover,
+.wrapper.styleNoticias .button.alt:hover {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.styleNoticias input[type="submit"].alt:active,
+.wrapper.styleNoticias input[type="reset"].alt:active,
+.wrapper.styleNoticias input[type="button"].alt:active,
+.wrapper.styleNoticias button.alt:active,
+.wrapper.styleNoticias .button.alt:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wrapper.styleNoticias input[type="submit"].alt.icon:before,
+.wrapper.styleNoticias input[type="reset"].alt.icon:before,
+.wrapper.styleNoticias input[type="button"].alt.icon:before,
+.wrapper.styleNoticias button.alt.icon:before,
+.wrapper.styleNoticias .button.alt.icon:before {
+  color: #999999;
+}
+
+.wrapper.styleNoticias input[type="submit"].special,
+.wrapper.styleNoticias input[type="reset"].special,
+.wrapper.styleNoticias input[type="button"].special,
+.wrapper.styleNoticias button.special,
+.wrapper.styleNoticias .button.special {
+  background-color: #8a4680;
+  color: #ffffff !important;
+}
+
+.wrapper.styleNoticias input[type="submit"].special:hover,
+.wrapper.styleNoticias input[type="reset"].special:hover,
+.wrapper.styleNoticias input[type="button"].special:hover,
+.wrapper.styleNoticias button.special:hover,
+.wrapper.styleNoticias .button.special:hover {
+  background-color: #9b4f90;
+}
+
+.wrapper.styleNoticias input[type="submit"].special:active,
+.wrapper.styleNoticias input[type="reset"].special:active,
+.wrapper.styleNoticias input[type="button"].special:active,
+.wrapper.styleNoticias button.special:active,
+.wrapper.styleNoticias .button.special:active {
+  background-color: #793d70;
+}
+
+.wrapper.styleNoticias label {
+  color: #ffffff;
+}
+
+.wrapper.styleNoticias input[type="text"],
+.wrapper.styleNoticias input[type="password"],
+.wrapper.styleNoticias input[type="email"],
+.wrapper.styleNoticias select,
+.wrapper.styleNoticias textarea {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleNoticias input[type="text"]:focus,
+.wrapper.styleNoticias input[type="password"]:focus,
+.wrapper.styleNoticias input[type="email"]:focus,
+.wrapper.styleNoticias select:focus,
+.wrapper.styleNoticias textarea:focus {
+  border-color: #8a4680;
+  box-shadow: 0 0 0 1px #8a4680;
+}
+
+.wrapper.styleNoticias .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleNoticias input[type="checkbox"] + label,
+.wrapper.styleNoticias input[type="radio"] + label {
+  color: #bfbfbf;
+}
+
+.wrapper.styleNoticias input[type="checkbox"] + label:before,
+.wrapper.styleNoticias input[type="radio"] + label:before {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleNoticias input[type="checkbox"]:checked + label:before,
+.wrapper.styleNoticias input[type="radio"]:checked + label:before {
+  background-color: #8a4680;
+  border-color: #8a4680;
+  color: #ffffff;
+}
+
+.wrapper.styleNoticias input[type="checkbox"]:focus + label:before,
+.wrapper.styleNoticias input[type="radio"]:focus + label:before {
+  border-color: #8a4680;
+  box-shadow: 0 0 0 1px #8a4680;
+}
+
+.wrapper.styleNoticias ::-webkit-input-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleNoticias :-moz-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleNoticias ::-moz-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleNoticias :-ms-input-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleNoticias .formerize-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleNoticias ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleNoticias header p {
+  color: #999999;
+}
+
+.wrapper.styleNoticias table tbody tr {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleNoticias table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.styleNoticias table th {
+  color: #ffffff;
+  text-align: center; /* Centers text horizontally */
+  vertical-align: middle; /* Centers text vertically */
+}
+
+.wrapper.styleNoticias table thead {
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.wrapper.styleNoticias table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleNoticias table.alt tbody tr td {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleNoticias .inner {
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper.styleNoticias p {
+  color: white;
+  text-transform: uppercase; /* Options: lowercase, capitalize, none, inherit, initial */
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.25rem;
+}
+
+.wrapper.styleNoticias p:after {
+  content: "";
+  position: absolute;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.wrapper.styleNoticias:before {
+  -moz-transition: opacity 3s ease;
+  -webkit-transition: opacity 3s ease;
+  -ms-transition: opacity 3s ease;
+  transition: opacity 3s ease;
+  -moz-transition-delay: 1.25s;
+  -webkit-transition-delay: 1.25s;
+  -ms-transition-delay: 1.25s;
+  transition-delay: 1.25s;
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0.95);
+  height: 100%;
+  left: 0;
+  opacity: 0.75;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.wrapper.styleDrivers {
+  background-color: #000;
+  color: #bfbfbf;
+  background-image: url(../../images/top4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.wrapper.styleDrivers input,
+.wrapper.styleDrivers select,
+.wrapper.styleDrivers textarea {
+  color: #ffffff;
+}
+
+.wrapper.styleDrivers a {
+  color: white;
+}
+
+.wrapper.styleDrivers strong,
+.wrapper.styleDrivers b {
+  color: #ffffff;
+}
+
+.wrapper.styleDrivers h1,
+.wrapper.styleDrivers h2,
+.wrapper.styleDrivers h3,
+.wrapper.styleDrivers h4,
+.wrapper.styleDrivers h5,
+.wrapper.styleDrivers h6 {
+  color: white;
+}
+
+.wrapper.styleDrivers blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleDrivers code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleDrivers hr {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleDrivers .box {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleDrivers input[type="submit"],
+.wrapper.styleDrivers input[type="reset"],
+.wrapper.styleDrivers input[type="button"],
+.wrapper.styleDrivers button,
+.wrapper.styleDrivers .button {
+  background-color: #f2f2f2;
+  color: #000 !important;
+}
+
+.wrapper.styleDrivers input[type="submit"]:hover,
+.wrapper.styleDrivers input[type="reset"]:hover,
+.wrapper.styleDrivers input[type="button"]:hover,
+.wrapper.styleDrivers button:hover,
+.wrapper.styleDrivers .button:hover {
+  background-color: white;
+}
+
+.wrapper.styleDrivers input[type="submit"]:active,
+.wrapper.styleDrivers input[type="reset"]:active,
+.wrapper.styleDrivers input[type="button"]:active,
+.wrapper.styleDrivers button:active,
+.wrapper.styleDrivers .button:active {
+  background-color: #e5e5e5;
+}
+
+.wrapper.styleDrivers input[type="submit"].alt,
+.wrapper.styleDrivers input[type="reset"].alt,
+.wrapper.styleDrivers input[type="button"].alt,
+.wrapper.styleDrivers button.alt,
+.wrapper.styleDrivers .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+  color: #ffffff !important;
+}
+
+.wrapper.styleDrivers input[type="submit"].alt:hover,
+.wrapper.styleDrivers input[type="reset"].alt:hover,
+.wrapper.styleDrivers input[type="button"].alt:hover,
+.wrapper.styleDrivers button.alt:hover,
+.wrapper.styleDrivers .button.alt:hover {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.styleDrivers input[type="submit"].alt:active,
+.wrapper.styleDrivers input[type="reset"].alt:active,
+.wrapper.styleDrivers input[type="button"].alt:active,
+.wrapper.styleDrivers button.alt:active,
+.wrapper.styleDrivers .button.alt:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wrapper.styleDrivers input[type="submit"].alt.icon:before,
+.wrapper.styleDrivers input[type="reset"].alt.icon:before,
+.wrapper.styleDrivers input[type="button"].alt.icon:before,
+.wrapper.styleDrivers button.alt.icon:before,
+.wrapper.styleDrivers .button.alt.icon:before {
+  color: #999999;
+}
+
+.wrapper.styleDrivers input[type="submit"].special,
+.wrapper.styleDrivers input[type="reset"].special,
+.wrapper.styleDrivers input[type="button"].special,
+.wrapper.styleDrivers button.special,
+.wrapper.styleDrivers .button.special {
+  background-color: #8a4680;
+  color: #ffffff !important;
+}
+
+.wrapper.styleDrivers input[type="submit"].special:hover,
+.wrapper.styleDrivers input[type="reset"].special:hover,
+.wrapper.styleDrivers input[type="button"].special:hover,
+.wrapper.styleDrivers button.special:hover,
+.wrapper.styleDrivers .button.special:hover {
+  background-color: #9b4f90;
+}
+
+.wrapper.styleDrivers input[type="submit"].special:active,
+.wrapper.styleDrivers input[type="reset"].special:active,
+.wrapper.styleDrivers input[type="button"].special:active,
+.wrapper.styleDrivers button.special:active,
+.wrapper.styleDrivers .button.special:active {
+  background-color: #793d70;
+}
+
+.wrapper.styleDrivers label {
+  color: #ffffff;
+}
+
+.wrapper.styleDrivers input[type="text"],
+.wrapper.styleDrivers input[type="password"],
+.wrapper.styleDrivers input[type="email"],
+.wrapper.styleDrivers select,
+.wrapper.styleDrivers textarea {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleDrivers input[type="text"]:focus,
+.wrapper.styleDrivers input[type="password"]:focus,
+.wrapper.styleDrivers input[type="email"]:focus,
+.wrapper.styleDrivers select:focus,
+.wrapper.styleDrivers textarea:focus {
+  border-color: #8a4680;
+  box-shadow: 0 0 0 1px #8a4680;
+}
+
+.wrapper.styleDrivers .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleDrivers input[type="checkbox"] + label,
+.wrapper.styleDrivers input[type="radio"] + label {
+  color: #bfbfbf;
+}
+
+.wrapper.styleDrivers input[type="checkbox"] + label:before,
+.wrapper.styleDrivers input[type="radio"] + label:before {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleDrivers input[type="checkbox"]:checked + label:before,
+.wrapper.styleDrivers input[type="radio"]:checked + label:before {
+  background-color: #8a4680;
+  border-color: #8a4680;
+  color: #ffffff;
+}
+
+.wrapper.styleDrivers input[type="checkbox"]:focus + label:before,
+.wrapper.styleDrivers input[type="radio"]:focus + label:before {
+  border-color: #8a4680;
+  box-shadow: 0 0 0 1px #8a4680;
+}
+
+.wrapper.styleDrivers ::-webkit-input-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleDrivers :-moz-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleDrivers ::-moz-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleDrivers :-ms-input-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleDrivers .formerize-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.styleDrivers ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleDrivers header p {
+  color: white;
+}
+
+.wrapper.styleDrivers table tbody tr {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleDrivers table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.styleDrivers table th {
+  color: #ffffff;
+  text-align: right; /* Centers text horizontally */
+  vertical-align: right; /* Centers text vertically */
+}
+
+.wrapper.styleDrivers table thead {
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.wrapper.styleDrivers table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleDrivers table.alt tbody tr td {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.styleDrivers .inner {
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper.styleDrivers p {
+  color: white;
+  text-transform: uppercase; /* Options: lowercase, capitalize, none, inherit, initial */
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.25rem;
+  text-align: center; /* Centers text horizontally */
+}
+
+.wrapper.styleDrivers p:after {
+  content: "";
+  position: absolute;
+  margin: auto;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  width: 50%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.wrapper.styleDrivers:before {
+  -moz-transition: opacity 3s ease;
+  -webkit-transition: opacity 3s ease;
+  -ms-transition: opacity 3s ease;
+  transition: opacity 3s ease;
+  -moz-transition-delay: 1.25s;
+  -webkit-transition-delay: 1.25s;
+  -ms-transition-delay: 1.25s;
+  transition-delay: 1.25s;
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0.95);
+  height: 100%;
+  left: 0;
+  opacity: 0.75;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 
 .wrapper.style7 {
   background-color: #000;
@@ -5374,6 +5992,290 @@ table.alt tbody tr td {
   z-index: 1;
 }
 
+.wrapper.style.Guia {
+  background-color: #000;
+  color: #bfbfbf;
+  background-image: url(../../images/top.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.wrapper.style.Guia input,
+.wrapper.style.Guia select,
+.wrapper.style.Guia textarea {
+  color: #ffffff;
+}
+
+.wrapper.style.Guia a {
+  color: #8a4680;
+}
+
+.wrapper.style.Guia strong,
+.wrapper.style.Guia b {
+  color: #ffffff;
+}
+
+.wrapper.style.Guia h1,
+.wrapper.style.Guia h2,
+.wrapper.style.Guia h3,
+.wrapper.style.Guia h4,
+.wrapper.style.Guia h5,
+.wrapper.style.Guia h6 {
+  color: #ffffff;
+}
+
+.wrapper.style.Guia blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style.Guia code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style.Guia hr {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style.Guia .box {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style.Guia input[type="submit"],
+.wrapper.style.Guia input[type="reset"],
+.wrapper.style.Guia input[type="button"],
+.wrapper.style.Guia button,
+.wrapper.style.Guia .button {
+  background-color: #f2f2f2;
+  color: #000 !important;
+}
+
+.wrapper.style.Guia input[type="submit"]:hover,
+.wrapper.style.Guia input[type="reset"]:hover,
+.wrapper.style.Guia input[type="button"]:hover,
+.wrapper.style.Guia button:hover,
+.wrapper.style.Guia .button:hover {
+  background-color: white;
+}
+
+.wrapper.style.Guia input[type="submit"]:active,
+.wrapper.style.Guia input[type="reset"]:active,
+.wrapper.style.Guia input[type="button"]:active,
+.wrapper.style.Guia button:active,
+.wrapper.style.Guia .button:active {
+  background-color: #e5e5e5;
+}
+
+.wrapper.style.Guia input[type="submit"].alt,
+.wrapper.style.Guia input[type="reset"].alt,
+.wrapper.style.Guia input[type="button"].alt,
+.wrapper.style.Guia button.alt,
+.wrapper.style.Guia .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+  color: #ffffff !important;
+}
+
+.wrapper.style.Guia input[type="submit"].alt:hover,
+.wrapper.style.Guia input[type="reset"].alt:hover,
+.wrapper.style.Guia input[type="button"].alt:hover,
+.wrapper.style.Guia button.alt:hover,
+.wrapper.style.Guia .button.alt:hover {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.style.Guia input[type="submit"].alt:active,
+.wrapper.style.Guia input[type="reset"].alt:active,
+.wrapper.style.Guia input[type="button"].alt:active,
+.wrapper.style.Guia button.alt:active,
+.wrapper.style.Guia .button.alt:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wrapper.style.Guia input[type="submit"].alt.icon:before,
+.wrapper.style.Guia input[type="reset"].alt.icon:before,
+.wrapper.style.Guia input[type="button"].alt.icon:before,
+.wrapper.style.Guia button.alt.icon:before,
+.wrapper.style.Guia .button.alt.icon:before {
+  color: #999999;
+}
+
+.wrapper.style.Guia input[type="submit"].special,
+.wrapper.style.Guia input[type="reset"].special,
+.wrapper.style.Guia input[type="button"].special,
+.wrapper.style.Guia button.special,
+.wrapper.style.Guia .button.special {
+  background-color: #8a4680;
+  color: #ffffff !important;
+}
+
+.wrapper.style.Guia input[type="submit"].special:hover,
+.wrapper.style.Guia input[type="reset"].special:hover,
+.wrapper.style.Guia input[type="button"].special:hover,
+.wrapper.style.Guia button.special:hover,
+.wrapper.style.Guia .button.special:hover {
+  background-color: #9b4f90;
+}
+
+.wrapper.style.Guia input[type="submit"].special:active,
+.wrapper.style.Guia input[type="reset"].special:active,
+.wrapper.style.Guia input[type="button"].special:active,
+.wrapper.style.Guia button.special:active,
+.wrapper.style.Guia .button.special:active {
+  background-color: #793d70;
+}
+
+.wrapper.style.Guia label {
+  color: #ffffff;
+}
+
+.wrapper.style.Guia input[type="text"],
+.wrapper.style.Guia input[type="password"],
+.wrapper.style.Guia input[type="email"],
+.wrapper.style.Guia select,
+.wrapper.style.Guia textarea {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style.Guia input[type="text"]:focus,
+.wrapper.style.Guia input[type="password"]:focus,
+.wrapper.style.Guia input[type="email"]:focus,
+.wrapper.style.Guia select:focus,
+.wrapper.style.Guia textarea:focus {
+  border-color: #8a4680;
+  box-shadow: 0 0 0 1px #8a4680;
+}
+
+.wrapper.style.Guia .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style.Guia input[type="checkbox"] + label,
+.wrapper.style.Guia input[type="radio"] + label {
+  color: #bfbfbf;
+}
+
+.wrapper.style.Guia input[type="checkbox"] + label:before,
+.wrapper.style.Guia input[type="radio"] + label:before {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style.Guia input[type="checkbox"]:checked + label:before,
+.wrapper.style.Guia input[type="radio"]:checked + label:before {
+  background-color: #8a4680;
+  border-color: #8a4680;
+  color: #ffffff;
+}
+
+.wrapper.style.Guia input[type="checkbox"]:focus + label:before,
+.wrapper.style.Guia input[type="radio"]:focus + label:before {
+  border-color: #8a4680;
+  box-shadow: 0 0 0 1px #8a4680;
+}
+
+.wrapper.style.Guia ::-webkit-input-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.style.Guia :-moz-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.style.Guia ::-moz-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.style.Guia :-ms-input-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.style.Guia .formerize-placeholder {
+  color: #999999 !important;
+}
+
+.wrapper.style.Guia ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style.Guia header p {
+  color: #999999;
+}
+
+.wrapper.style.Guia table tbody tr {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style.Guia table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.style.Guia table th {
+  color: #ffffff;
+}
+
+.wrapper.style.Guia table thead {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style.Guia table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style.Guia table.alt tbody tr td {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style.Guia .inner {
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper.style.Guia p {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 300;
+  margin: 0 0 0.5rem 0;
+  padding: 0 0 1rem 0;
+  letter-spacing: 0.25rem;
+}
+
+.wrapper.style.Guia p:after {
+  content: "";
+  position: absolute;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.wrapper.style.Guia:before {
+  -moz-transition: opacity 3s ease;
+  -webkit-transition: opacity 3s ease;
+  -ms-transition: opacity 3s ease;
+  transition: opacity 3s ease;
+  -moz-transition-delay: 1.25s;
+  -webkit-transition-delay: 1.25s;
+  -ms-transition-delay: 1.25s;
+  transition-delay: 1.25s;
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0.95);
+  height: 100%;
+  left: 0;
+  opacity: 0.75;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 /* Estilo para a tabela com a foto */
 .foto-tabela {
   border: 1px solid rgba(255, 255, 255, 0.25); /* Define bordas leves */
@@ -5394,10 +6296,6 @@ table.alt tbody tr td {
   max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho da célula */
   height: auto; /* Mantém a proporção da imagem */
 }
-
-
-
-
 
 @media screen and (max-width: 1280px) {
   .wrapper > .inner {
