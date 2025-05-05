@@ -4902,8 +4902,8 @@ table.alt tbody tr td {
 .wrapper.style6 input[type="button"],
 .wrapper.style6 button,
 .wrapper.style6 .button {
-  background-color: #f2f2f2;
-  color: #000 !important;
+  background-color: black;
+  color: white !important;
 }
 
 .wrapper.style6 input[type="submit"]:hover,
@@ -4911,7 +4911,7 @@ table.alt tbody tr td {
 .wrapper.style6 input[type="button"]:hover,
 .wrapper.style6 button:hover,
 .wrapper.style6 .button:hover {
-  background-color: white;
+  background-color: transparent;
 }
 
 .wrapper.style6 input[type="submit"]:active,
