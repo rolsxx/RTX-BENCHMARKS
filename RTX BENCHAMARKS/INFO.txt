@@ -1,0 +1,5 @@
+API KEY: 83ca3181ab714357b4ae3e13671177c7
+Diretório do servidor: cd "RTX-BENCHMARKS\RTX BENCHAMARKS\assets\scraping-noticias"
+node server.js para inicializar o servidor.
+
+Trabalho realizado por Oleksander Zhogno 64046; Pedro Santos 64078; Daniel Costa 64113
